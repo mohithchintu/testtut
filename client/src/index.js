@@ -7,7 +7,9 @@ import ErrorPage from './pages/ErrorPage';
 import HomePage from './pages/HomePage';
 import SignupPage from './pages/SignupPage';
 import SigninPage from './pages/SigninPage';
+import axios from 'axios';
 
+axios.defaults.baseURL = 'http://localhost:5000'
 
 const router = createBrowserRouter([
   {
